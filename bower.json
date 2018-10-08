@@ -4,7 +4,10 @@
     "delkant <delkant@gmail.com>"
   ],
   "description": "Directive that let you select and manipulate multiple areas of an image, move them and resize them too.",
-  "main": "angular-areas.js",
+  "main": [
+    "angular-areas.js",
+    "css/angular-areas.scss"
+  ],
   "dependencies": {
       "angular": "1.4.8",
       "jquery": "2.1.4"
