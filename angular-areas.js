@@ -24,6 +24,7 @@ ngAreas.directive("ngAreas", ['$parse', function ($parse) {
 			                allowMove:   (typeof allow.move === 'undefined') ? true :allow.move,
 			                allowResize: (typeof allow.resize === 'undefined') ? true :allow.resize,
 			                allowSelect: (typeof allow.select === 'undefined') ? true :allow.select,
+			                maxAreas: (typeof allow.maxAreas === 'undefined') ? true :allow.maxAreas,
 			                allowDelete: (typeof allow.remove === 'undefined') ? true :allow.remove,
 			                allowNudge:  (typeof allow.nudge === 'undefined') ? true :allow.nudge
 					};
